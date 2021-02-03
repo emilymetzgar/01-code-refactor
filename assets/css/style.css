@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* This is the top of the webpage, where the links to other parts of the webpage are located*/
+.navbar{
+    width: 100%;
+    background-color: #2a607c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 48px;
+    float: left;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav {
+    float: right;
+}
+/* The links are white and are not underlined*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 18px;
+    font-size: 24px;
+}
+
+
+/* This is the main image on the page, that can be customized*/
+.hero-image{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main content of the page, where the navbar links will direct the reader
+to the 3 boxes (a-c)*/
+
+.content-boxes {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* All titles in the content boxes*/
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* All paragraphs*/
+
+p {
+    font-size: 16px;
+}
+
+/* These are the individual content boxes (a-c) found in the main content of the page,
+they are formated the same size, color (blue, font (white)
+and they each have their own image*/
+.box-a {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.box-b {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.box-c {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Specific format for each image in
+the content boxes (a-c) the images are 
+specific to float direction*/
+
+.box-a img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+.box-b img {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+
+.box-c img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+/* The aside is the the right of the content boxes, blue back ground*/
+
+.aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* All titles formated the same in the aside*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* These are the aside boxes (a-c)
+all formated the same, each box contains a small image */
+
+.aside-a {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.aside-b {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.aside-c {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Small images found in the aside boxes (a-c)*/
+.aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* Footer w/ brand name @ bottom of page*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
