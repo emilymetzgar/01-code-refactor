@@ -165,7 +165,7 @@ all formated the same, each box contains a small image */
 
 
 /* Footer w/ brand name @ bottom of page*/
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
