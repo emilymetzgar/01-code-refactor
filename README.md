@@ -2,7 +2,7 @@
 
 ## Description 
 
-This application has a codebase that folloes accessibility standards and is optimized for search engines. 
+This application has a codebase that follows accessibility standards and is optimized for search engines. 
 
 ## Installation
 
