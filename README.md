@@ -13,7 +13,7 @@ Use this application in your browser on your computer.
 
 Search enginges.
 
-[![A screenshot of the application](/assets/images/demo.png"Horiseon Screenshot")]
+[![A screenshot of the application](/assets/images/demo.png)]
 link to application: https://emilymetzgar.github.io/HW-code-refactor-feb6/
 
 
